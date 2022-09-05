@@ -8,6 +8,8 @@
 
 #include "http_server.h"
 
+#define BOOST_ASIO_ENABLE_HANDLER_TRACKING
+
 namespace {
     namespace net = boost::asio;
     using namespace std::literals;
